@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="assets/style/main.css" rel="stylesheet">
+  <link href="assets/image/Logo.ico" rel="icon" type="image/gif">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>notPort | version 1.02</title>
+</head>
+<body>
+  <div class="main">
+    <header>
+      <div id="logo">
+        <img src="assets/image/notPort.png">
+        <!-- <em>通信のテスト</em> -->
+      </div>
+      <span id="userID"></span>
+      <input type="text" id="username" autocomplete="off" spellcheck="false" maxlength="10" placeholder="名前を入力 [10文字まで]">
+    </header>
+    <div class="filtering" style="display: none;">
+      <input type="text" id="filtering_input" spellcheck="false" autocomplete="off" placeholder="隠したい文字をここに追加"><input type="button" value="すべて削除" onclick="delFilter();">
+      <div id="view_filtering"><em>なし</em></div>
+    </div>
+    <div class="blocking" style="display: none;">
+      <input type="text" id="blocked_input" spellcheck="false" autocomplete="off" placeholder="隠した文字の表記を追加">
+    </div>
+    <div id="account">
+      <ul id="timeline"></ul>
+      <form id="form" action="">
+        <input type="text" id="input" autocomplete="off" spellcheck="false" placeholder="メッセージをここに入力"><button><i class='bx bxs-send'></i></button>
+      </form>
+      <div id="scroll-inner"></div>
+    </div>
+  </div>
+<!-- JS SCRIPT -->
+  <!-- Setup -->
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="var.js"></script>
+  <!-- Include Library -->
+  <script src="/mylibrary/createMessage.js"></script>
+  <script src="/mylibrary/hideactionPanel.js"></script>
+  <script src="/mylibrary/createAvator.js"></script>
+  <script src="/mylibrary/delComment.js"></script>
+  <script src="/mylibrary/smapLastestComment.js"></script>
+  <script src="/mylibrary/filter4Text.js"></script>
+  <script src="/mylibrary/delFilter.js"></script>
+  <script src="/mylibrary/adminCommands.js"></script>
+  <!-- Load Client -->
+  <script src="/client/client.js"></script>
+  <script src="/client/timeline/_send.js"></script>
+  <script src="/client/timeline/_del.js"></script>
+  <script src="/client/timeline/_edited.js"></script>
+  <script src="/client/admin/_ban.js"></script>
+  <script src="/client/admin/_login.js"></script>
+  <!-- When LoadAll  -->
+  <script src="/mylibrary/editComment.js"></script>
+</body>
+</html>
