@@ -31,7 +31,7 @@
 - リンクの貼り付け
 - メッセージの改行
 
-## Using Library
+## 使用したライブラリー
 - Node.js
 - Express
 - Socket.io
