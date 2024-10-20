@@ -1,5 +1,7 @@
 # notPort Mk2
-Node.jsとSocket.ioで動くシンプルな掲示板アプリケーション(セーフティ版)
+ExpressとSocket.ioで動くシンプルな掲示板アプリケーション(セーフティ版)
+
+ダウンロードした際、ExpressとSocket.ioをインストールしてください
 
 ## 作者者
 
@@ -30,5 +32,6 @@ Node.jsとSocket.ioで動くシンプルな掲示板アプリケーション(セ
 
 ## Using Library
 - Node.js
+- Express
 - Socket.io
 - BoxIcons
