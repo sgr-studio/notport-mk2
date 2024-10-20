@@ -1,5 +1,5 @@
 <div align="center">
-  # <img src="https://raw.githubusercontent.com/sgr-studio/notport/refs/heads/main/notPort/notPort_SYSTEM/public/notPort.png" style="width: 200px"> Mk2
+  <img src="https://raw.githubusercontent.com/sgr-studio/notport/refs/heads/main/notPort/notPort_SYSTEM/public/notPort.png" style="width: 200px"> Mk2
   ExpressとSocket.ioで動くシンプルな掲示板アプリケーション(セーフティ版)
   
   ダウンロードした際、ExpressとSocket.ioをインストールしてください
