@@ -2,8 +2,9 @@
 Node.jsとSocket.ioで動くシンプルな掲示板アプリケーション(セーフティ版)
 
 ## 作者者
-SGR
-https://sgr-studio](https://raw.githubusercontent.com/sgr-studio/database/refs/heads/main/data/icon/SGR.png)
+
+<h3 style="width: 50px; text-align: center;">SGR</h3>
+<img src="https://raw.githubusercontent.com/sgr-studio/database/refs/heads/main/data/icon/SGR.png" style="width: 50px">
 
 ## バージョン
 - 0.01 
