@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/sgr-studio/notport/refs/heads/main/notPort/notPort_SYSTEM/public/notPort.png" style="width: 400px">
   <p><br>notPort Mk2 version 1.02 (Safety version)<br><br>ExpressとSocket.ioで動くシンプルな掲示板アプリケーション(セーフティ版)<br>ダウンロードした際、ExpressとSocket.ioをインストールしてください</p>
-  <a href="https://sgr-studio.github.io/apps/notport/">notPortページ</a>
+  <a href="https://sgr-studio.github.io/apps/notport">notPortページ</a>
 </div>
 
   ## 作者者
