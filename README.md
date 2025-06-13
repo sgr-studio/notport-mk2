@@ -4,7 +4,7 @@
   <a href="https://sgr-studio.github.io/apps/notport">notPortページ</a>
 </div>
 
-  ## 作者者
+  ## 制作者
 <div align="center">
   <h3 style="width: 50px; text-align: center;">SGR</h3>
   <img src="https://raw.githubusercontent.com/sgr-studio/database/refs/heads/main/data/icon/SGR.png" style="width: 50px">
